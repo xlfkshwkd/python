@@ -6,3 +6,4 @@ SS=(4/3)*math.pi*(r*r*r)
 print("겉면적은 ={}".format(T))
 print("부피는 ={}".format(SS))
 
+#6

@@ -8,3 +8,4 @@ else :
     TF = float(input("화씨 온도 내놔 "))
     TC = (5 / 9) * (TF - 32)
     print("화씨는 ={}".format(TC))
+#5

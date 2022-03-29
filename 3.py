@@ -9,4 +9,4 @@ n=int(input("정수 n 입려해 거기까지 곱한다 "))
 
 factorial(n)
 
-#????
+#3
