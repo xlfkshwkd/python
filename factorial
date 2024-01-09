@@ -1,0 +1,11 @@
+def factorial(n):
+    # 기저 조건: 0 또는 1의 팩토리얼은 1
+    if n == 0 or n == 1:
+        return 1
+    else:
+        # 재귀 호출: n! = n * (n-1)!
+        return n * factorial(n - 1)
+
+# 예제로 5의 팩토리얼을 계산해봅시다.
+result = factorial(5)
+print("5의 팩토리얼은:", result)
